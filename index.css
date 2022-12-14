@@ -1,0 +1,15 @@
+.intro__image {
+  opacity: 0;
+  animation: fade-in 2s 500ms forwards;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.other_works_item {
+  width: 327px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('img/works/workPlaceholderHover.png');
+}
