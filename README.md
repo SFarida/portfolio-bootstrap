@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
   # Portfolio
   <br/>
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>My Portfolio  - Bootstrap</b></h3>
 
 </div>
 
@@ -61,13 +61,13 @@ After you're finished please remove all the comments and instructions!
 # 📖 Portfolio <a name="about-project"></a>
 
 
-**Portfolio** is a portfolion mobile friendly website.
+**Portfolio-bootstrap** is a portfolion mobile friendly website styled with bootstrap framework.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
   <summary>Client</summary>
