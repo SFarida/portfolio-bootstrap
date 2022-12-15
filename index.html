@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,10 +65,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md p-5 mt-5">
-                <h1 class="text-warning mb-5 pb-5">Hey There. I'm Farida</h1>
-                <h2 class="text-light mb-5">I'am a Software Developer</h2>
-                <p class="text-light mb-5">
+            <div class="col-md pt-5 mt-5">
+                <h1 class="text-warning">Hey There. I'm Farida</h1>
+                <h2 class="text-light">I'am a Software Developer</h2>
+                <p class="text-light">
                     I can help you build a product , feature or website Look through some of my work and
                     experience! If you like what you see and have a project you need coded, don't hestiate to
                     contact me.
@@ -106,7 +106,7 @@
                     <li class="border border-dark list-inline-item"><span class="m-2">bootstrap</span></li>
                     <li class="border border-dark list-inline-item"><span class="m-2">Ruby</span></li>
                 </ul>
-                <button type="button" class="bg-warning text-light border border-warning">
+                <button type="button" class="bg-warning text-light border border-warning p-2">
                     <span class="m-1 fw-bold">See Project</span>
                 </button>
             </div>
@@ -131,7 +131,32 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-warning text-center">
+                <div class="bg-warning text-center p-2">
+                    <button type="button" class="bg-warning text-light border border-warning p-2">
+                        <span class="fw-bold m-1">See Project</span>
+                    </button>
+                </div>
+            </div>
+            <div class="other_works_item card border-0">
+                <div class="p-5 card-body">
+                    <h3 class="card-title">Profesional Art Printing Data</h3>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has
+                        been the industry's standard
+                    </p>
+                    <ul class="list-inline card-text">
+                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
+                            <span class="fw-bold m-2">html</span>
+                        </li>
+                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
+                            <span class="fw-bold m-2">bootstrap</span>
+                        </li>
+                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
+                            <span class="fw-bold m-2">Ruby</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-warning text-center p-2">
                     <button type="button" class="bg-warning text-light border border-warning">
                         <span class="fw-bold m-1">See Project</span>
                     </button>
@@ -156,7 +181,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-warning text-center">
+                <div class="bg-warning text-center p-2">
                     <button type="button" class="bg-warning text-light border border-warning">
                         <span class="fw-bold m-1">See Project</span>
                     </button>
@@ -181,7 +206,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-warning text-center">
+                <div class="bg-warning text-center p-2">
                     <button type="button" class="bg-warning text-light border border-warning">
                         <span class="fw-bold m-1">See Project</span>
                     </button>
@@ -206,7 +231,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-warning text-center">
+                <div class="bg-warning text-center p-2">
                     <button type="button" class="bg-warning text-light border border-warning">
                         <span class="fw-bold m-1">See Project</span>
                     </button>
@@ -231,32 +256,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-warning text-center">
-                    <button type="button" class="bg-warning text-light border border-warning">
-                        <span class="fw-bold m-1">See Project</span>
-                    </button>
-                </div>
-            </div>
-            <div class="other_works_item card border-0">
-                <div class="p-5 card-body">
-                    <h3 class="card-title">Profesional Art Printing Data</h3>
-                    <p class="card-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has
-                        been the industry's standard
-                    </p>
-                    <ul class="list-inline card-text">
-                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
-                            <span class="fw-bold m-2">html</span>
-                        </li>
-                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
-                            <span class="fw-bold m-2">bootstrap</span>
-                        </li>
-                        <li class="border border-dark list-inline-item bg-secondary bg-opacity-2">
-                            <span class="fw-bold m-2">Ruby</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="bg-warning text-center">
+                <div class="bg-warning text-center p-2">
                     <button type="button" class="bg-warning text-light border border-warning">
                         <span class="fw-bold m-1">See Project</span>
                     </button>
@@ -334,6 +334,62 @@
             </div>
         </div>
     </section>
+    <!-- Contact form -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-3">
+                <p>
+                    I'm always interested in hearing about new projects, so if you'd like to chat please get in
+                    touch.
+                </p>
+            </div>
+            <div class="col-md-9">
+                <form action="https://formspree.io/f/myyvrjpe" method="post">
+                    <div class="mb-3 required">
+                        <label for="form_input1"></label>
+                        <input id="form_input1" class="form-control border-top-0 border-end-0 border-start-0" type="text" placeholder="Fullname" name="name"
+                            maxlength="30" required />
+                    </div>
+                    <div class="mb-3 required">
+                        <label for="form_input2"></label>
+                        <input id="form_input2" class="form-control border-top-0 border-end-0 border-start-0" type="email" placeholder="Email address"
+                            name="email" required />
+                    </div>
+                    <div class="mb-3 required">
+                        <label for="form_input3"></label>
+                        <textarea id="form_input3" class="form-control border-top-0 border-end-0 border-start-0" maxlength="500" name="description" rows="5"
+                            cols="30" placeholder="Enter text here" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="bg-warning text-light border border-warning p-2">
+                            <span class="fw-bold m-1">Get in touch</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top">
+        <div class="d-flex justify-content-center my-3">
+            <ul class="list-unstyled d-flex mb-0">
+                <li class="mx-2">
+                    <a href="https://github.com/SFarida"> <img class="img img1" src="img/footer/github.png" alt="GitHub" /></a>
+                </li>
+                <li class="mx-2">
+                    <a href="https://www.linkedin.com/in/farida-gueleu/"><img class="img img2" src="img/footer/linkedin.png" alt="Linkedin" /></a>
+                </li>
+                <li class="mx-2">
+                    <a href="#"><img class="img img3" src="img/footer/angelist_1.png" alt="Angelist" /></a>
+                </li>
+                <li class="mx-2">
+                    <a href="#"><img class="img img4" src="img/footer/twitter.png" alt="Twitter" /></a>
+                </li class="mx-2">
+                <li class="mx-2">
+                    <a href="#"><img class="img img5" src="img/footer/Vector.png" alt="Vector" /></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 
     <!-- Bootstrap Bundle with Popper -->
